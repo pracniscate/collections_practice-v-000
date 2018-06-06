@@ -19,3 +19,11 @@ def swap_elements(array)
   array[2] = index2
   array
 end
+
+def swap_elements_from_to(array, index, destination_index)
+  index2 = array[index]
+  index3 = array[destination_index]
+  array[index] = index3
+  array[destination_index] = index2
+  array
+end
