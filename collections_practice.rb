@@ -48,5 +48,5 @@ def find_a(array)
 end
 
 def start_with?(string)
-  return true if string.match(/]Aa/)
+  return true if string.match(/\Aa/)
 end
