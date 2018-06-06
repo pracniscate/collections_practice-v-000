@@ -4,7 +4,7 @@ end
 
 def sort_array_desc(num)
 num.sort do |a, b|
-  if a == begin
+  if a == b
     0
   elsif a < b
     1
