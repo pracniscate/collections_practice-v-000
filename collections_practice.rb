@@ -28,11 +28,11 @@ def swap_elements_from_to(array, index, destination_index)
   array
 end
 
-def reverse_array(num)
+def reverse_array(array)
   array.reverse
 end
 
-def kesha_maker(strings)
+def kesha_maker(array)
   array.each do |index|
     index[2] = "$"
   end
