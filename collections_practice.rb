@@ -50,3 +50,7 @@ end
 def start_with?(string)
   return true if string.match(/\Aa/)
 end
+
+def sum_array(array)
+  array.inject {|sum, int| sum + int}
+end
