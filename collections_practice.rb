@@ -56,11 +56,11 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.each_with_index.collect {|element, index|
+  array.each_with_index.collect {|word, index|
     if index == 1
-      element
+      word # because 'feet' is already plural
     else
-      element + "s"
+      word + "s" # add an 's' to the rest
     end
   }
 end
