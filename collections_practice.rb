@@ -38,3 +38,15 @@ def kesha_maker(array)
   end
   array
 end
+
+def find_a(array)
+  newArray = Array.new
+  array.each do |index|
+    newArray << index if start_with?(index) == true
+  end
+  newArray
+end
+
+def start_with?(string)
+  return true if string.match(/]Aa/)
+end
